@@ -11,7 +11,7 @@ from openai._exceptions import OpenAIError, RateLimitError, APIStatusError
 
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+
 
 # 可选：供你现有代码调用
 def set_openai_key(key_env: str = "OPENAI_API_KEY") -> None:
